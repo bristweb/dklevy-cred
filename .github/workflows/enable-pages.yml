@@ -31,7 +31,19 @@ jobs:
             echo "Unexpected GET status $code"
             exit 1
           fi
-          curl -sS -f -X POST "${hdr[@]}" "https://api.github.com/repos/${repo}/pages" \
-            -d '{"build_type":"legacy","source":{"branch":"main","path":"/"}}'
-          echo
-          echo "Pages site created"
+          post() {
+            local label="$1" payload="$2"
+            local pcode
+            pcode=$(curl -sS -D /tmp/pages.hdr -o /tmp/pages.body -w "%{http_code}" -X POST "${hdr[@]}" \
+              "https://api.github.com/repos/${repo}/pages" -d "$payload")
+            echo "POST $label -> $pcode"
+            grep -i '^x-accepted-github-permissions:' /tmp/pages.hdr || true
+            cat /tmp/pages.body
+            echo
+            if [ "$pcode" = "201" ] || [ "$pcode" = "200" ] || [ "$pcode" = "409" ]; then
+              return 0
+            fi
+            return 1
+          }
+          post legacy '{"build_type":"legacy","source":{"branch":"main","path":"/"}}' \
+            || post workflow '{"build_type":"workflow"}'
