@@ -2,7 +2,7 @@
 
 Reviews and testimonials for **[DKLEVY](https://dklevy.com/)** (DKLEVY PLLC, architecture and design, Knoxville TN), plus the settings and theme for its reviews widget. The widget code lives in **[bristweb/cred](https://github.com/bristweb/cred)**. This repo is only DKLEVY data. Nothing in it is from another client's reviews.
 
-GitHub Pages, once this folder is the root of `bristweb/dklevy-cred` and Pages is set to branch `main` / `/`, serves the files at `https://bristweb.github.io/dklevy-cred/`. `.github/workflows/deploy.yml` can also publish to Cloudflare Pages when the repo secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, and `CF_PAGES_PROJECT` are set. Without those secrets the Cloudflare job is skipped.
+GitHub Pages, once this folder is the root of `bristweb/dklevy-cred` and Pages is set to branch `main` / `/`, serves the files at `https://dklevy-cred.pages.dev/`. `.github/workflows/deploy.yml` can also publish to Cloudflare Pages when the repo secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, and `CF_PAGES_PROJECT` are set. Without those secrets the Cloudflare job is skipped.
 
 - **Settings:** [`config.js`](config.js) · **Reviews:** [`reviews/`](reviews/) · **Testimonials:** `testimonials` in `config.js`
 
@@ -12,7 +12,7 @@ The homepage Testimonials block is three quotes (Tracy Sneed, Ray Heath, Jaime G
 
 ```html
 <script src="https://cred.bristleconeweb.com/assets/js/cred.js"
-        data-source="https://bristweb.github.io/dklevy-cred/" defer></script>
+        data-source="https://dklevy-cred.pages.dev/" defer></script>
 ```
 
 dklevy.com is a Framer site. On the homepage, select the Testimonials section and use Insert → Embed → HTML, then paste the snippet. If the embed frame has a fixed height, add `data-constrained="true"` and make the frame about 420px tall.
