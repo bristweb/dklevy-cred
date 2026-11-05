@@ -1,0 +1,38 @@
+[
+  {
+    "platform": "google",
+    "platform_review_id": "PLACEHOLDER-2020-05-12-kenneth",
+    "reviewer_name": "Kenneth",
+    "reviewer_profile_url": null,
+    "reviewer_image": "images/reviewers/google-PLACEHOLDER-2020-05-12-kenneth.svg",
+    "reviewer_image_source_url": null,
+    "rating": 5,
+    "text": "We recently worked with DKLevy for a major renovation and addition to a 60’s brick home. Daniel listened to our wishlist and provided suggestions on where to concentrate funds to make the most impact. His attention to details and cost made the experience very rewarding. We could not be happier with the outcome of our project and working with Daniel and his staff was a pleasure.",
+    "date": "2020-05-12T00:00:00Z",
+    "review_url": "https://www.google.com/maps/place/DKLEVY/@35.9084394,-83.9618935,17z/data=!4m6!3m5!1s0x885c16b509efcc2d:0x9248c2c2650e244b!8m2!3d35.9084394!4d-83.9618935!16s%2Fg%2F126300z5t",
+    "owner_reply": null,
+    "collected_at": "2026-11-05T01:30:20Z",
+    "text_source_url": "https://exa.ai/library/place/5fkd9vzs52b",
+    "author_source_url": "https://localitybiz.com/32206082/dklevy-architecture-and-design-knoxville",
+    "rating_source": "Five filled star icons on the Exa place page next to this text.",
+    "date_source": "Calendar date and five filled stars are from the Exa place page (time datetime and star icons). The author name is not on that page; it is the name shown beside this same full text on localitybiz. Logged-out Google Maps HTML for this place did not include review text. platform_review_id is a placeholder, not a Google review id. No clock time was shown; T00:00:00Z is the calendar date only."
+  },
+  {
+    "platform": "google",
+    "platform_review_id": "PLACEHOLDER-2020-02-05-mike-wilhoit",
+    "reviewer_name": "Mike Wilhoit",
+    "reviewer_profile_url": null,
+    "reviewer_image": "images/reviewers/google-PLACEHOLDER-2020-02-05-mike-wilhoit.svg",
+    "reviewer_image_source_url": null,
+    "rating": 5,
+    "text": "Daniel and his team are amazing to work with. They helped us take an idea for a run down bank building that had sat empty for a decade and bring it back to life as a community pharmacy. Their attention to detail and design are second to none. I strongly recommend DKLEVY for your architectural and design needs!",
+    "date": "2020-02-05T00:00:00Z",
+    "review_url": "https://www.google.com/maps/place/DKLEVY/@35.9084394,-83.9618935,17z/data=!4m6!3m5!1s0x885c16b509efcc2d:0x9248c2c2650e244b!8m2!3d35.9084394!4d-83.9618935!16s%2Fg%2F126300z5t",
+    "owner_reply": null,
+    "collected_at": "2026-11-05T01:30:20Z",
+    "text_source_url": "https://exa.ai/library/place/5fkd9vzs52b",
+    "author_source_url": "https://localitybiz.com/32206082/dklevy-architecture-and-design-knoxville",
+    "rating_source": "Five filled star icons on the Exa place page next to this text.",
+    "date_source": "Calendar date and five filled stars are from the Exa place page (time datetime and star icons). The author name is not on that page; it is the name shown beside this same full text on localitybiz. Logged-out Google Maps HTML for this place did not include review text. platform_review_id is a placeholder, not a Google review id. No clock time was shown; T00:00:00Z is the calendar date only."
+  }
+]

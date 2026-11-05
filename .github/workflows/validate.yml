@@ -1,0 +1,11 @@
+# Checks config.js, reviews/<year>.json and images/reviewers/ with the shared validator
+# (https://github.com/bristweb/cred, scripts/validate.mjs).
+name: Validate reviews data
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: write # lets the check commit the updated rating badge (badge.json, badge.svg)
+jobs:
+  validate:
+    uses: bristweb/cred/.github/workflows/validate.yml@main
